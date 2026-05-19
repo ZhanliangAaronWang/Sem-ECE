@@ -1,7 +1,6 @@
 # Sem-ECE: Sample-Split Semantic Consensus for Self-Consistency Confidence
 
-Code accompanying the anonymous NeurIPS submission.  This package reproduces
-all figures and the bootstrap-CI tables from the paper.
+This package reproduces all figures and the bootstrap-CI tables from the paper.
 
 It contains **only the downstream analysis pipeline** (clustering JSONL →
 confidence → ECE/figures).  The upstream batch-generation code (calls to
