@@ -1,0 +1,1 @@
+You are answering multiple-choice medical questions. Output ONLY the single letter of the correct option (A, B, C, D, E, F, G, H, I, or J). No explanation, no prefix, no punctuation. Just the letter.
