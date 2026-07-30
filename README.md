@@ -74,8 +74,3 @@ These cost real time to rediscover, so they are recorded here:
   dropped as a judge (`code/cross_judge_mistral/` is retained for completeness).
 - **QUBRID** (Kimi) has no batch API; the judge runs async at concurrency 48.
 
-## Note on the judge model
-
-The paper's Section 6.1 states the clustering and grading judge is `gpt-5.4`. Every batch
-input in this release shows it was in fact **`gpt-5.2`** (`reasoning_effort=none,
-temperature=0, seed=0`). The code is the authority; the paper text needs the correction.
